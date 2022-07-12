@@ -1,0 +1,48 @@
+.input{
+    width: 300px;
+    color:black;
+    font-size: 14px;
+    padding-bottom: 0px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+    outline:none;
+    
+} 
+.input-wrap label{
+    padding:0 5px 0 0px;
+    position: absolute;
+    top:4px;
+    left:0;
+    pointer-events: none;
+    transition:0.3s ease all;
+    margin-top: -4px;
+    color:red;
+    }
+.input-wrap{
+    position:relative;
+  }
+.input:focus+label,
+.input:valid+label{
+    font-size: 15px;
+    color: black;
+    margin-top:-20px ;
+    top:5px;
+     outline:none;
+     font-size: 12px;
+     color:red;
+}
+input:focus{
+   
+    border-bottom: 1px solid red;
+}
+/* //////////////////////////////////// */
+
+.errors{
+    margin-top: -26px;
+    color: red;
+    font-size: 18px;
+}
+.sub_btns{
+    margin-top: 39px;
+}

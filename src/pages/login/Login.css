@@ -1,0 +1,22 @@
+input{
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+   outline: none;
+width:300px;
+margin-bottom: 26px;
+
+display: block;
+}
+input:focus
+{
+    border-bottom: 1px solid red;
+}
+.errors
+{
+
+        margin-bottom: 20px;
+        color: red;
+        font-size: 18px;
+
+}

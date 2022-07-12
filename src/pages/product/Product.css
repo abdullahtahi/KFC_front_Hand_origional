@@ -1,0 +1,8 @@
+.head
+{
+    margin-top: 20px;
+    display: flex;
+justify-content: center;
+border:0.1px solid rgb(230, 227, 227);
+text-transform:uppercase;
+}

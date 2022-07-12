@@ -1,0 +1,19 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+.item img{
+    width:200px
+}
+.header-inner
+{
+    display:flex;
+    justify-content: space-between;
+align-items: flex-end;
+}
+
+.item ul 
+{
+    display: flex;
+list-style-type: none;
+}
